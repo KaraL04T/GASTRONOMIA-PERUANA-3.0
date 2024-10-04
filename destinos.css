@@ -1,0 +1,142 @@
+body{
+    background-color: #c1f3ff;
+
+}
+
+main{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.foto{
+    display: inline-block;
+    position: relative;
+}
+
+.titulo{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    top: 100px;
+    padding-left: 240px;
+    position: absolute;
+    font-family: "Lilita One", sans-serif;;
+}
+
+#fot{
+    width: 1500px;
+    height: 500px;
+    padding-left: 4px;
+}
+
+#categoria{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.mas {
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    border-radius: 4px;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    background-color: #07262e;
+    font-family: "Lilita One", sans-serif;
+    padding: 15px 18px 20px 18px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.mas:hover{
+    color: #07262e;
+    background-color: white;
+}
+
+#navega{
+    font-family: "Lilita One", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+}
+
+.parrafo{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 40px;
+    margin-left: 299.600px;
+    margin-right: 299.600px;
+    text-align: justify;
+}
+
+#introimg{
+    width: 70%;
+    height: 60%;
+    border: 10px solid #ffffff;
+    margin-left: 220px;
+}
+
+.intro{
+    font-family: "Lilita One", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    margin-left: 299.600px;
+    margin-right: 299.600px;
+    margin-bottom: -20px;
+    margin-top: 60px;
+}
+
+.destinos{
+    width: 900px;
+    height: 500px;
+    padding-left: 4px;
+    margin-left: 298px;
+}
+
+.titulos-destinos{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    top: 100px;
+    padding-left: 240px;
+    position: absolute;
+    font-family: "Lilita One", sans-serif;
+    left: 100px;
+}
+
+.interna{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 425px;
+    color: #fff;
+    -webkit-text-stroke: 0.5px black;
+}
+
+footer{
+    width: 75%;
+    height: auto;
+    float: left;
+    margin-top: 100px;
+    padding-left: 25%;
+    background-color: #07262e;
+    color: aliceblue;
+}
+
+.div-footer{
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.a-fo{
+    color: aliceblue;
+}
+
+
+
