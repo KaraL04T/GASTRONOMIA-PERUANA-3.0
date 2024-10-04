@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #000000;
+
+}
+
+main{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.foto{
+    display: inline-block;
+    position: relative;
+}
+
+.titulo{
+    font-size: 70px;
+    color: white;
+    top: 100px;
+    padding-left: 150px;
+    position: absolute;
+    font-family: "Permanent Marker", cursive;
+}
+
+.red{
+    font-size: 60px;
+    color: #cb0c0c;
+    font-family: "Great Vibes", cursive;
+}
+
+#fot{
+    width: 1500px;
+    height: 500px;
+    padding-left: 4px;
+}
+
+#tema{
+    color: #dee0fb;
+    border-bottom: 2px #dee0fb solid;
+    display: inline-block;
+    font-size: 40px;
+    font-family: "Permanent Marker", cursive;
+}
+
+#intro-con{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.introp{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    color: white;
+}
+
+h2{
+    color: white;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.entradas{
+	width: 80%;
+	height: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 55px;
+    margin-left: 130px;
+}
+
+.principales{
+	width: 80%;
+	height: auto;
+	display: grid;
+	grid-template-rows: 5;
+	grid-template-columns: 1fr 1fr;
+    grid-column-gap: 55px;
+    margin-left: 130px;
+}
+
+.cuadros{
+	width: 98%;
+	height: 400px;
+	margin: 1px;
+	overflow: hidden;
+
+}
+
+.cuadros:hover .img-cuadro{
+	height: 0px;
+	transition:  all ease 1s;
+
+}
+
+.img-cuadro{
+	width: 100%;
+	height: 400px;
+	float: left;
+	transition: all ease 0.5s;
+}
+
+.parrafo{
+	text-align: justify;
+	font-size: 16px;
+    color: white;
+}
+
+.fecha{
+	text-align: center;
+	color: white;
+	background-color: #cb0c0c;
+}
+
+#cuerpo{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 100px;
+    padding-left: 25%;
+    background: hsla(0, 90%, 48%, 0.85);
+    color: aliceblue;
+    padding: 62px 0 2px;
+}
+
+.div-footer{
+    display: inline-block;
+    margin-left: 40px;
+    border-right: 1px solid white;
+    padding-right: 30px;
+}
+
+.footer-bottom{
+    padding: 25px 0;
+    background: hsla(0, 7%, 6%, 0.619);
+}
+
+.copyright{
+    text-align: center;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}

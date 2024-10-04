@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="estilocontactos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img id="img-header" src="imgreserva/introreserva.png">
+    </header>
+    <h1 class="titulo"> Reserva tu Mesa en <strong class="rojoletra">"El Sabor Peruano"</strong></h1>
+    <p class="arreglo">Asegura tu lugar para disfrutar de lo mejor de la gastronomía peruana en Sabor Andino. Ya sea para una cena íntima, una celebración especial o simplemente para deleitarte con nuestros platos, te invitamos a hacer tu reserva con anticipación y garantizar una experiencia inolvidable.</p>
+    <section>
+        <h2 class="titulo">Completa el formulario para reservar:</h2>
+        <!-- Segunda Parte -->
+        <form method="post">
+            <label> Nombre:</label><br>
+            <input name:"nombre" placeholder="Tu Nombre" required autofocus/></p> 
+
+            <label> Apellidos:</label><br>
+            <input name:"apellido" placeholder="Tu Apellido" required /></p> 
+            
+            <label> Número de telefono</label><br>
+            <input name:"Número" placeholder="Tu número de telefono" required /></p>
+
+            <label> Fecha de reserva</label><br>
+            <input name:"Fecha" placeholder="Fecha de reserva" required /></p>
+
+            <label> Elige una casa:</label><br>
+            <select name="grado">
+                <option value="Casa Miraflores" selected>Casa Miraflores</option>
+                <option value="Casa de la Molina" selected>Casa de la Molina</option>
+            </select><p>
+            
+                <label> Cantidad de personas:</label><br>
+                <select name="grado">
+                    <option value="1 persona" selected>1 persona</option>
+                    <option value="2 personas" selected>2 personas</option>
+                    <option value="3 personas" selected>3 personas</option>
+                    <option value="4 personas" selected>4 personas</option>
+                    <option value="5 personas" selected>5 personas</option>
+                    <option value="6 personas" selected>6 personas</option>
+                    <option value="7 personas" selected>7 personas</option>
+                    <option value="8 personas" selected>8 personas</option>
+                    <option value="9 personas" selected>9 personas</option>
+                    <option value="10 personas" selected>10 personas</option>
+                </select><p>
+
+                <label> Hora:</label><br>
+                <input type="radio" name="horario" checked value="AM" > 9:00 - 11:00 am
+                <input type="radio" name="horario" checked value="PM" > 6:00 - 11:00 pm
+                </p>
+
+                <label> Mensaje </label><br>
+                <textarea name="comentario" placeholder="Escriba su comentario" cols="25" rows="10"> </textarea> 
+
+                </p>
+
+                <input type="submit" value="Enviar">
+
+
+        </form>
+    </section>
+
+</body>
+</html>
